@@ -4,7 +4,13 @@ import { Container, Title, List, Item, Planet } from './styles';
 
 import Description from '../../components/description';
 
+import { loadPlanets } from '../../services/api';
+
 export default function Planets() {
+
+  const data = loadPlanets();
+  console.log(data);
+
   return (
     <Container>
       <Title>Descubra o infinito do universo</Title>
