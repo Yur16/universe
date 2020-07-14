@@ -16,7 +16,7 @@ export const List = styled.ScrollView.attrs({
 })`
   max-height: 150px;
 `;
-export const Item = styled.TouchableOpacity`
+export const Item = styled.TouchableHighlight`
   margin-right: 10px;
   padding: 10px;
   border-radius: 15px;

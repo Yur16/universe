@@ -12,15 +12,11 @@ export const Name = styled.Text`
 	color: #fff;
 	align-self: center;
 `;
-export const More = styled.Text`
-	margin-top: 8px;
-	color: #fff;
-	text-align: justify;
-`;
 export const Attribute = styled.View`
-	padding: 10px;
+	padding: 10px 30px 10px 10px;
 	flex-direction: row;
 	align-items: center;
+	justify-content: space-between;
 
 	margin-top: 10px;
 
@@ -28,8 +24,14 @@ export const Attribute = styled.View`
 	border-radius: 8px;
 `
 export const Value = styled.Text`
-	color: #FF3366;
-	font-size: 22px;
+	color: #ae80ff;
+	font-size: 20px;
 	margin-left: 15px;
 	font-weight: bold;
+`;
+export const More = styled.Text`
+	font-size: 16px;
+	margin-top: 8px;
+	color: #fff;
+	text-align: justify;
 `;
