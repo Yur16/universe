@@ -9,33 +9,18 @@ import { loadPlanets } from '../../services/api';
 export default function Planets() {
 
   const data = loadPlanets();
-  console.log(data);
 
   return (
     <Container>
       <Title>Descubra o infinito do universo</Title>
       <List>
-        <Item>
-          <Planet source={{
-            uri: 'https://www.flaticon.com/br/premium-icon/icons/svg/1146/1146292.svg',
-          }} />
-        </Item>
-        <Item>
-          <Planet source={{
-            uri: 'https://www.flaticon.com/br/premium-icon/icons/svg/1146/1146292.svg',
-          }} />
-        </Item>
-        <Item>
-          <Planet source={{
-            uri: 'https://www.flaticon.com/br/premium-icon/icons/svg/1146/1146292.svg',
-          }} />
-        </Item>
-        <Item>
-          <Planet source={{
-            uri: 'https://www.flaticon.com/br/premium-icon/icons/svg/1146/1146292.svg',
-          }} />
-        </Item>
-        
+        {data.map(planet => (
+          <Item key={planet.name}>
+            <Planet source={{
+              uri: planet.icon,
+            }} />
+          </Item>
+        ))}
       </List>
       
       <Description />

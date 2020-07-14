@@ -2,7 +2,7 @@ export function loadPlanets() {
   return [
     { 
       name: 'Mercurio', 
-      icon: 'https://image.flaticon.com/icons/svg/2909/2909920.svg',
+      icon: 'https://images.vexels.com/media/users/3/203284/isolated/preview/ce9967b7e3f598e2222f08f49d1f141d-ilustra----o-do-planeta-merc-rio-by-vexels.png',
       day: '58d 15h 30m',
       year: '88 dias',
       gravity: '3,7 m/s²',
@@ -11,7 +11,7 @@ export function loadPlanets() {
     },
     { 
       name: 'Vênus', 
-      icon: 'https://image.flaticon.com/icons/svg/2909/2909962.svg',
+      icon: 'https://images.vexels.com/media/users/3/203449/isolated/preview/5c54f244e824bc49de3eba5c9351f3cd-ilustra----o-do-planeta-v-nus-by-vexels.png',
       day: '116d 18h 0m',
       year: '225 dias',
       gravity: '8,87 m/s²',
@@ -20,7 +20,7 @@ export function loadPlanets() {
     },
     { 
       name: 'Terra', 
-      icon: 'https://image.flaticon.com/icons/svg/2909/2909865.svg',
+      icon: 'https://images.vexels.com/media/users/3/157971/isolated/preview/393140c13ded6abdd322098d2d02a6d7-ilustra----o-do-planeta-terra-by-vexels.png',
       day: '23h 56m',
       year: '365 dias',
       gravity: '9,78 m/s²',
@@ -29,7 +29,7 @@ export function loadPlanets() {
     },
     { 
       name: 'Marte', 
-      icon: 'https://image.flaticon.com/icons/svg/2909/2909917.svg',
+      icon: 'https://images.vexels.com/media/users/3/152536/isolated/preview/401b51c3a9098f12b566121c92009877---cone-do-planeta-de-marte-by-vexels.png',
       day: '1d 0h 37m',
       year: '687 dias',
       gravity: '3,711 m/s²',
@@ -38,7 +38,7 @@ export function loadPlanets() {
     },
     { 
       name: 'Jupiter', 
-      icon: 'https://image.flaticon.com/icons/svg/2949/2949010.svg',
+      icon: 'https://images.vexels.com/media/users/3/205471/isolated/preview/7591a6a3860eda2a1b4909b2bac023ba-ilustra----o-de-planeta-j-piter-by-vexels.png',
       day: '9h 56m',
       year: '4331,572 dias',
       gravity: '24,79 m/s²',
@@ -47,7 +47,7 @@ export function loadPlanets() {
     },
     { 
       name: 'Saturno', 
-      icon: 'https://image.flaticon.com/icons/svg/1086/1086094.svg',
+      icon: 'https://images.vexels.com/media/users/3/205476/isolated/preview/56e1687ae914c14cb0ed474f0982f45f-ilustra----o-de-planeta-saturno-by-vexels.png',
       day: '10h 42m',
       year: '10759,22 dias',
       gravity: '10,44 m/s²',
@@ -56,7 +56,7 @@ export function loadPlanets() {
     },
     { 
       name: 'Urano', 
-      icon: 'https://image.flaticon.com/icons/svg/1086/1086101.svg',
+      icon: 'https://images.vexels.com/media/users/3/152570/isolated/preview/425035eea8f0d97015ac66c6763d58e8---cone-do-planeta-netuno-by-vexels.png',
       day: '17h 14m',
       year: '30799 dias',
       gravity: '8,87 m/s²',
@@ -65,7 +65,7 @@ export function loadPlanets() {
     },
     { 
       name: 'Netuno', 
-      icon: 'https://image.flaticon.com/icons/svg/2909/2909927.svg',
+      icon: 'https://images.vexels.com/media/users/3/205474/isolated/preview/58439a44441b470a0c87ad262d33118b-ilustra----o-do-planeta-netuno-by-vexels.png',
       day: '16h 6m',
       year: '60190 dias',
       gravity: '11,15 m/s²',

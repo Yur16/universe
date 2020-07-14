@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text } from 'react-native';
 
-import { Container, Name, Table, Property, Subtitle, CountView, Count, More } from './styles';
+import { Container, Name, Attribute, Value, More } from './styles';
 
 export default function Description() {
 
@@ -11,22 +11,33 @@ export default function Description() {
     <Container>
     	<Name>Marte</Name>
 
-    	<Table
-			  data={data}
-			  renderItem={({ item }) => (
-			    <Property>
-			    	<Subtitle>Peso</Subtitle>
-			    	<CountView>
-			      	<Count>100kg</Count>
-			      </CountView>
-			    </Property>
-			  )}
-			  //Setting the number of column
-			  numColumns={2}
-			  keyExtractor={(item, index) => index.toString()}
-			/>
+    	<Attribute>
+				<Text style={{fontSize: 18, color: '#fff'}}>
+					Duração do dia:
+				</Text>
+				<Value>Value</Value>
+			</Attribute>
+			<Attribute>
+				<Text style={{fontSize: 18, color: '#fff'}}>
+					Duração do ano:
+				</Text>
+				<Value>Value</Value>
+			</Attribute>
+			<Attribute>
+				<Text style={{fontSize: 18, color: '#fff'}}>
+					Gravidade:
+				</Text>
+				<Value>Value</Value>
+			</Attribute>
+			<Attribute>
+				<Text style={{fontSize: 18, color: '#fff'}}>
+					Temperatura media:
+				</Text>
+				<Value>Value</Value>
+			</Attribute>
 			
-			<Text style={{fontSize: 22, color: '#fff', fontWeight: 'bold', marginLeft: 15}}>
+			
+			<Text style={{fontSize: 22, color: '#fff', fontWeight: 'bold', marginTop: 30}}>
 				Mais informações
 			</Text>
 
