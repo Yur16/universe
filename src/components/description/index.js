@@ -3,37 +3,37 @@ import { Text } from 'react-native';
 
 import { Container, Name, Attribute, Value, More } from './styles';
 
-export default function Description() {
+export default function Description({ data }) {
 
-	const data = [ 1, 2, 3, 4, 5, 6 ];
+	console.log(data);
 
   return (
     <Container>
-    	<Name>Marte</Name>
+    	<Name>{data.name}</Name>
 
     	<Attribute>
 				<Text style={{fontSize: 18, color: '#fff'}}>
 					Duração do dia:
 				</Text>
-				<Value>Value</Value>
+				<Value>{data.day}</Value>
 			</Attribute>
 			<Attribute>
 				<Text style={{fontSize: 18, color: '#fff'}}>
 					Duração do ano:
 				</Text>
-				<Value>Value</Value>
+				<Value>{data.year}</Value>
 			</Attribute>
 			<Attribute>
 				<Text style={{fontSize: 18, color: '#fff'}}>
 					Gravidade:
 				</Text>
-				<Value>Value</Value>
+				<Value>{data.gravity}</Value>
 			</Attribute>
 			<Attribute>
 				<Text style={{fontSize: 18, color: '#fff'}}>
 					Temperatura media:
 				</Text>
-				<Value>Value</Value>
+				<Value>{data.temperature}</Value>
 			</Attribute>
 			
 			
@@ -42,7 +42,7 @@ export default function Description() {
 			</Text>
 
     	<More>
-    		Marte é o quarto planeta a partir do Sol, o segundo menor do Sistema Solar. Batizado em homenagem ao deus romano da guerra, muitas vezes é descrito como o "Planeta Vermelho", porque o óxido de ferro predominante em sua superfície lhe dá uma aparência avermelhada.
+    		{data.description}
     	</More>   	
     </Container>
   ); 

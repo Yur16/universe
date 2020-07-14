@@ -28,7 +28,8 @@ export const Attribute = styled.View`
 	border-radius: 8px;
 `
 export const Value = styled.Text`
-	color: #A57BFF;
+	color: #FF3366;
 	font-size: 22px;
 	margin-left: 15px;
+	font-weight: bold;
 `;
