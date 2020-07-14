@@ -1,4 +1,4 @@
-import styled from 'styled-components/native';
+import styled, { css } from 'styled-components/native';
 
 export const Container = styled.View`
   flex: 1;
@@ -22,6 +22,9 @@ export const Item = styled.TouchableOpacity`
   border-radius: 15px;
   width: 100px;
   height: 100px;
+  ${props => props.isSelected && css`
+    border: 1px solid #fff;
+  `}
 `;
 export const Planet = styled.Image`
   flex: 1;

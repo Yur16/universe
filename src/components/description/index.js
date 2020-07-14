@@ -5,8 +5,6 @@ import { Container, Name, Attribute, Value, More } from './styles';
 
 export default function Description({ data }) {
 
-	console.log(data);
-
   return (
     <Container>
     	<Name>{data.name}</Name>

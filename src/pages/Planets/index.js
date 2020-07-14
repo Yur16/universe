@@ -14,14 +14,16 @@ export default function Planets() {
     setItem(selected);
   }
 
-  console.log(selectedItem);
-
   return (
     <Container>
       <Title>Descubra o infinito do universo</Title>
       <List>
         {data.map((planet, index) => (
-          <Item key={planet.name} onPress={() => handleSelect(index)}>
+          <Item 
+            key={planet.name} 
+            onPress={() => handleSelect(index)}
+            isSelected={selectedItem === index ? true : false}  
+          >
             <Planet source={{
               uri: planet.icon,
             }} />
